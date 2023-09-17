@@ -1,5 +1,12 @@
 
 .background{
-    width:100%;
-    height:50%;
+    width:49.5%;
+    height:900px;
+    display: inline-block;
+    padding-left: 4px;
+}
+
+h2{
+    text-align: right;
+    padding-right: 30px;   
 }
