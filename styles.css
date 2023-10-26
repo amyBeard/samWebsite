@@ -1,15 +1,10 @@
 
-.pics{
-
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center; 
-    align-items: center;
-    
-}
-
 .background{
-    display: block;
-    height: 700px;
-    width:600px;
+
+    height:900px;
+    display: flex-grid;
+    padding-left: 10em;
+    padding-bottom: 5em;
+    justify-content: center;
 }
+
