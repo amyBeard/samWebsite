@@ -49,3 +49,31 @@ main {
     box-sizing: border-box;
     border-radius: 10px; /* Add rounded corners to the images */
 }
+
+/* Media Query for mobile devices */
+@media (max-width: 768px) {
+    header {
+        padding: 20px 0; /* Adjust padding for smaller screens */
+        border-radius: 0; /* Remove rounded corners for smaller screens */
+    }
+
+    header .banner {
+        font-size: 24px; /* Reduce font size for smaller screens */
+        border-radius: 0; /* Remove rounded corners for smaller screens */
+    }
+
+    header p {
+        font-size: 16px; /* Reduce font size for smaller screens */
+        border-radius: 0; /* Remove rounded corners for smaller screens */
+    }
+
+    main {
+        grid-template-columns: repeat(2, 1fr); /* Adjust the number of columns for smaller screens */
+        padding: 1em; /* Adjust padding for smaller screens */
+    }
+
+    .background {
+        padding: 5px; /* Adjust padding for smaller screens */
+        border-radius: 0; /* Remove rounded corners for smaller screens */
+    }
+}
