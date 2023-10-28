@@ -50,9 +50,21 @@ main {
     border-radius: 10px; /* Add rounded corners to the images */
 }
 
+footer{
+    position: absolute;
+    left: 2em;
+    color: #4657ab;
+    font-family: 'Arial', sans-serif;
+    padding-bottom: 2em;
+}
+
+hr{
+    color: #4657ab;
+}
+
 /* Media Query for mobile devices */
 @media (max-width: 768px) {
-    header {
+    header, footer {
         padding: 20px 0; /* Adjust padding for smaller screens */
         border-radius: 0; /* Remove rounded corners for smaller screens */
     }
